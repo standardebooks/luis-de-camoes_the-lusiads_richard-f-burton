@@ -31,6 +31,10 @@ section[epub|type~="dedication"] p b{
 	margin-top: 1em;
 }
 
+#dedication-2 > p {
+	text-indent: 0;
+}
+
 @supports(display: flex){
 	section[epub|type~="dedication"]{
 		align-items: center;
