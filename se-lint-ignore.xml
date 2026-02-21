@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="canto-10.xhtml">
+		<ignore>
+			<code>t-020</code>
+			<reason>The endnote refers only to the first part of a hyphenated word.</reason>
+		</ignore>
+	</file>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>t-064</code>
+			<reason>Vasco da Gama is the correct spelling of the name.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
