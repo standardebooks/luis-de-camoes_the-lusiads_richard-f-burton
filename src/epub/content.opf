@@ -33,9 +33,12 @@
 		<meta property="authority" refines="#subject-1">LCHS</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="se:subject">Poetry</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A Portuguese fleet becomes the object of conflict between Roman gods.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;The Lusiads&lt;/i&gt; (from Lusitania, a Roman province in Portugal and Spain), is arguably the greatest work in the Portuguese language. First published in 1572, it deals, in poetic form, with the deeds of Portuguese navigators (and by extension Portugal herself) in Africa and Asia.&lt;/p&gt;
+			&lt;p&gt;Set during Vasco da Gama’s voyage to India, the plot involves a conflict between the Olympian gods about whether the Portuguese will succeed in reaching Asia via a maritime route. Bacchus works against the navigators, disguising himself as a muslim in order to attempt to destroy the fleet. He is opposed by Venus and Mars, who favor Portugal.&lt;/p&gt;
+			&lt;p&gt;The sheer influence of the poem has led to &lt;a href="https://standardebooks.org/ebooks/luis-de-camoes"&gt;Luís de Camões&lt;/a&gt; being the name of the most prestigious literary award in Portuguese language.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Lusiads&lt;/i&gt; has since become the national epic of Portugal, occupying a similar place in its literary culture as the &lt;a href="https://standardebooks.org/ebooks/homer/the-iliad/william-cullen-bryant"&gt;&lt;i&gt;The Iliad&lt;/i&gt;&lt;/a&gt; is for Greece and &lt;a href="https://standardebooks.org/ebooks/virgil/the-aeneid/john-dryden"&gt;&lt;i&gt;The Aeneid&lt;/i&gt;&lt;/a&gt; for for Rome. The poem was praised by both the King of Portugal and the Holy Inquisition upon its publishing. It was one of the first works to receive some form of copyright protection, being granted as a monopoly to Camões by King Sebastian for a period of ten years.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- Vol. 1 -->
