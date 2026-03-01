@@ -186,30 +186,30 @@ abbr[epub|type~="se:era"]{
 }
 
 /* Rejected stanzas table */
-#rejected-stanzas table:last-of-type td:nth-of-type(4){
+#appendix table:last-of-type td:nth-of-type(4){
 	text-align: initial;
 }
 
-#rejected-stanzas table:last-of-type td:last-of-type{
+#appendix table:last-of-type td:last-of-type{
 	font-variant-numeric: tabular-nums;
 	text-align: right;
 }
 
-#rejected-stanzas table:last-of-type tr:last-of-type td:last-of-type{
+#appendix table:last-of-type tr:last-of-type td:last-of-type{
 	border-top: black 1px solid;
 }
 
 /* Rejected stanzas headers */
-#rejected-stanzas[epub|type~="z3998:poem"] > header p{
+#appendix[epub|type~="z3998:poem"] > header p{
 	display: block;
 	text-indent: 1em;
 }
 
-#rejected-stanzas[epub|type~="z3998:poem"] > header p:first-of-type{
+#appendix[epub|type~="z3998:poem"] > header p:first-of-type{
 	text-indent: 0;
 }
 
-#rejected-stanzas[epub|type~="z3998:poem"] header p > span{
+#appendix[epub|type~="z3998:poem"] header p > span{
 	display: inline;
 	font-variant: normal;
 	padding-left: 0;
