@@ -22,11 +22,6 @@ section[epub|type~="dedication"] p b{
 	font-size: larger;
 }
 
-#dedication-1 cite,
-#dedication-2 cite{
-	font-style: normal;
-}
-
 #dedication-2 > * + *{
 	margin-top: 1em;
 }
@@ -113,15 +108,15 @@ blockquote[xml|lang]{
 	font-style: italic;
 }
 
-header > table{
+table{
 	margin: auto;
 }
 
-header > table td:first-of-type{
+table td:first-of-type{
 	text-align: initial;
 }
 
-header > table td:nth-of-type(2){
+table td:nth-of-type(2){
 	padding-left: 1em;
 	text-align: right;
 }
@@ -198,32 +193,13 @@ abbr[epub|type~="se:era"]{
 	border-top: black 1px solid;
 }
 
-/* Rejected stanzas headers */
-#appendix[epub|type~="z3998:poem"] > header p{
-	display: block;
-	text-indent: 1em;
-}
-
-#appendix[epub|type~="z3998:poem"] > header p:first-of-type{
-	text-indent: 0;
-}
-
-#appendix[epub|type~="z3998:poem"] header p > span{
-	display: inline;
-	font-variant: normal;
-	padding-left: 0;
-	text-align: initial;
-	text-indent: 0;
-}
-
-/* Preface footer */
+/* Footers */
 footer{
 	margin-top: 1em;
 	text-align: right;
 }
 
 /* Bridgeheads */
-
 [epub|type~="bridgehead"]{
 	display: inline-block;
 	font-style: italic;
@@ -237,7 +213,6 @@ footer{
 }
 
 /* Signature */
-
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
