@@ -142,7 +142,6 @@ header > table td:nth-of-type(2){
 
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:verse"] p{
-	display: inline-block;
 	text-align: initial;
 	text-indent: 0;
 }
