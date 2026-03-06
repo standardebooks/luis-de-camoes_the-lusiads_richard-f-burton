@@ -99,7 +99,6 @@ section[epub|type~="epigraph"] > *{
 }
 /* End full-page epigraphs */
 
-/* Poem, verse */
 [epub|type~="z3998:poem"] section > header{
 	/* styling for stanza numbers */
 	display: block;
@@ -119,7 +118,7 @@ section[epub|type~="epigraph"] > *{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] section > p > span,
+[epub|type~="z3998:poem"] p > span,
 [epub|type~="z3998:verse"] > p > span{
 	display: block;
 	padding-left: 1em;
@@ -171,16 +170,21 @@ table tfoot td:last-of-type{
 	border-top: 1px solid;
 }
 
-section[epub|type~="z3998:poem"] section > section{
+#appendix section[epub|type~="z3998:poem"] section > section{
 	margin-top: 0;
 }
-/* End appendix */
 
-/* Footers */
-footer{
-	margin-top: 1em;
-	text-align: right;
+#appendix section[epub|type~="z3998:poem"] header p span{
+	display: inline;
+	padding-left: 0;
+	text-indent: 0;
 }
+
+#appendix section[epub|type~="z3998:poem"] header p + p{
+	font-variant: normal;
+	text-align: justify;
+}
+/* End appendix */
 
 /* Bridgehead */
 [epub|type~="bridgehead"]{
