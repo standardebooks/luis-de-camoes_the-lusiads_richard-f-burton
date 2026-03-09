@@ -12,10 +12,4 @@
 			<reason>Vasco da Gama is the correct spelling of the name.</reason>
 		</ignore>
 	</file>
-	<file path="dedication-2.xhtml">
-		<ignore code="t-030">
-			<line>45</line>
-			<reason>Vasco da Gama is the correct spelling of the name.</reason>
-		</ignore>
-	</file>
 </se-lint-ignore>
