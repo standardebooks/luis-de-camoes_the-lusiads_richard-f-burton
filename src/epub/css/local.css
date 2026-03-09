@@ -18,6 +18,10 @@ footer,
 }
 
 /* Dedication 1 */
+section#dedication-1{
+	margin-top: 20vh;
+}
+
 section#dedication-1 > p{
 	margin: auto;
 	margin-top: 3em;
@@ -25,12 +29,17 @@ section#dedication-1 > p{
 	text-align: center;
 }
 
+section#dedication-1 abbr:first-of-type,
 section#dedication-1 p b{
 	font-size: larger;
 }
 
 section#dedication-1 span:last-of-type{
 	margin-left: 5em;
+}
+
+section#dedication-1 footer{
+	font-variant: small-caps;
 }
 /* End dedication 1 */
 
@@ -157,13 +166,16 @@ abbr[epub|type~="se:era"]{
 
 /* Appendix */
 table{
-	font-variant-numeric: tabular-nums;
 	margin: 1em auto 1em auto;
 }
 
 table tr td:last-of-type,
 table tfoot tr{
 	text-align: right;
+}
+
+table tr td:last-of-type{
+	font-variant-numeric: tabular-nums;
 }
 
 table tfoot td:last-of-type{
