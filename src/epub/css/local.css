@@ -199,7 +199,7 @@ table tfoot td:last-of-type{
 /* End appendix */
 
 /* Bridgehead */
-[epub|type~="bridgehead"]{
+[epub|type~="se:bridgehead"]{
 	display: inline-block;
 	font-style: italic;
 	max-width: 60%;
@@ -207,11 +207,11 @@ table tfoot td:last-of-type{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] [epub|type~="bridgehead"]{
+[epub|type~="z3998:poem"] [epub|type~="se:bridgehead"]{
 	text-align: justify;
 }
 
-[epub|type~="bridgehead"] + div[epub|type~="z3998:verse"]{
+[epub|type~="se:bridgehead"] + div[epub|type~="z3998:verse"]{
 	margin-top: 1em;
 }
 /* End bridgehead */
