@@ -31,7 +31,7 @@
 		<meta property="file-as" refines="#title">Lusiads, The</meta>
 		<meta property="dcterms:alternative" refines="#title">Os Lusíadas</meta>
 		<dc:subject id="subject-1">Epic poetry, Portuguese -- Translations into English</dc:subject>
-		<meta property="authority" refines="#subject-1">LCHS</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="se:subject">Poetry</meta>
 		<dc:description id="description">A Portuguese fleet becomes the object of conflict between Roman gods.</dc:description>
