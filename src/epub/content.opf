@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/luis-de-camoes/the-lusiads/richard-f-burton</dc:identifier>
 		<dc:date>2026-03-09T21:25:22Z</dc:date>
@@ -35,13 +35,13 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="schema:genre">Poetry</meta>
-		<dc:description id="description">A Portuguese fleet becomes the object of conflict between Roman gods.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A Portuguese fleet becomes the object of conflict between Roman gods.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Lusiads&lt;/i&gt; (from Lusitania, a Roman province in Portugal and Spain), is perhaps the greatest work in the Portuguese language. First published in 1572, it deals, in poetic form, with the deeds of Portuguese navigators (and by extension Portugal herself) in Africa and Asia.&lt;/p&gt;
 			&lt;p&gt;Set during Vasco da Gama’s voyage to India, the plot involves a conflict between the Olympian gods about whether the Portuguese will succeed in reaching Asia via a maritime route. Bacchus works against the navigators, disguising himself as a Muslim in order to attempt to destroy the fleet. He’s opposed by Venus and Mars, who favor Portugal.&lt;/p&gt;
 			&lt;p&gt;The poem is so influential that the most prestigious literary award in the Portuguese language is named after &lt;a href="https://standardebooks.org/ebooks/luis-de-camoes"&gt;Luís de Camões&lt;/a&gt;.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;The Lusiads&lt;/i&gt; has since become the national epic of Portugal, occupying a similar place in its literary culture as the &lt;a href="https://standardebooks.org/ebooks/homer/the-iliad/william-cullen-bryant"&gt;&lt;i&gt;The Iliad&lt;/i&gt;&lt;/a&gt; for Greece and &lt;a href="https://standardebooks.org/ebooks/virgil/the-aeneid/john-dryden"&gt;&lt;i&gt;The Aeneid&lt;/i&gt;&lt;/a&gt; for Rome. It was one of the first works to receive copyright protection, being granted as a monopoly to Camões by King Sebastian for a period of ten years.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<!-- Vol. 1 -->
 		<dc:source>https://www.gutenberg.org/ebooks/77660</dc:source>
