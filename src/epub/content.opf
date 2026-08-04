@@ -35,7 +35,7 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="schema:genre">Poetry</meta>
-		<dc:abstract>A Portuguese fleet becomes the object of conflict between Roman gods.</dc:abstract>
+		<meta property="schema:abstract">A Portuguese fleet becomes the object of conflict between Roman gods.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Lusiads&lt;/i&gt; (from Lusitania, a Roman province in Portugal and Spain), is perhaps the greatest work in the Portuguese language. First published in 1572, it deals, in poetic form, with the deeds of Portuguese navigators (and by extension Portugal herself) in Africa and Asia.&lt;/p&gt;
 			&lt;p&gt;Set during Vasco da Gama’s voyage to India, the plot involves a conflict between the Olympian gods about whether the Portuguese will succeed in reaching Asia via a maritime route. Bacchus works against the navigators, disguising himself as a Muslim in order to attempt to destroy the fleet. He’s opposed by Venus and Mars, who favor Portugal.&lt;/p&gt;
