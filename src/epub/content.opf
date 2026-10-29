@@ -64,7 +64,7 @@
 		<dc:contributor id="translator">Richard F. Burton</dc:contributor>
 		<meta property="file-as" refines="#translator">Burton, Richard F.</meta>
 		<meta property="schema:alternateName" refines="#translator">Richard Francis Burton</meta>
-		<link href="https://en.wikipedia.org/wiki/Richard_F._Burton" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Richard_Francis_Burton" refines="#translator" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n80057204.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">dto</meta>
